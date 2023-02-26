@@ -32,13 +32,6 @@ def test_create_user():
 
 
 def test_update_user():
-    name = 'Chev'
-    job = 'leader'
-
-    req = requests.post(
-        url='https://reqres.in/api/users/2',
-        json={'name': name, 'job': job}
-    )
     update_name = 'morpheus'
     update_job = 'follower'
 
